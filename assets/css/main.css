@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+}
+
+.hero-unit {
+    background: url("../img/hero-bg.jpg") top right no-repeat fixed;
+    background-size: cover;
+    height: 100%;
+    font-size: 1.2em;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+@media (min-width: 992px) {
+    .hero-unit {
+      padding-left: 160px;
+    }
+  }
+
+#main-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+ul.my-links {
+    padding-left: 0;
+    padding-top: 0.3em;
+}
+
+ul.my-links li {
+    margin-right: 25px;
+    list-style: none;
+    display: inline;
+    font-size: 1.5em;
+}
+
+a, a:visited, .about-me b {
+    color: #3b74d1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul.about-me {
+    padding-left: 0;
+}
+
+ul.about-me li {
+    list-style: none;
+    white-space: nowrap;
+    line-height: 2em;
+}
+
+h1 {
+    white-space: nowrap;
+    font-family: 'Alegreya', serif;
+}

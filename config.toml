@@ -19,6 +19,7 @@ googleAnalytics = "G-KSQ053BFR8"
     "https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"
   ]
   enableGoogleAnalytics = true
+  showPowerBy = false
 
 [outputFormats.RSS]
 mediaType = "application/rss+xml"

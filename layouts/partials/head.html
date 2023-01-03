@@ -25,7 +25,13 @@
 <link rel="shortcut icon" href="{{ "/images/favicon.ico" | relURL }}" type="image/x-icon" />
 
 {{ if .Site.Params.enableGoogleAnalytics }} 
-    {{ template "_internal/google_analytics.html" . }}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KSQ053BFR8"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', '{{ site.Config.Services.GoogleAnalytics.ID }}', { 'anonymize_ip': false });
+</script>
 {{ end }}
 
 {{ if or .Params.math .Site.Params.math }}

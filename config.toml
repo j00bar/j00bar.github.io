@@ -1,4 +1,4 @@
-baseURL = 'http://i-am-j.ag/blog/'
+baseURL = 'https://i-am-j.ag/blog/'
 languageCode = 'en-us'
 title = 'Joshua Ginsberg, aka jag, j00bar'
 theme = ["github.com/nodejh/hugo-theme-mini"]

@@ -1,0 +1,10 @@
+<div id="social">
+
+    {{ range $key, $val := .Site.Social }}
+        <a href="{{ $val }}" rel="me" target="_blank">
+            <i class="fab fa-{{ $key }}"></i>
+        </a>
+    {{ end }}
+    <a href="mailto:jag@flowtheory.net"><i class="far fa-envelope"></i></a>
+    
+</div>

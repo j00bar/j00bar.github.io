@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    color: #404040;
 }
 
 .hero-unit {
@@ -35,7 +36,7 @@ ul.my-links li {
     font-size: 1.5em;
 }
 
-a, a:visited, .about-me b {
+a, a:visited, a:hover, .about-me b {
     color: #3b74d1;
     text-decoration: none;
     font-weight: bold;

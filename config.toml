@@ -1,0 +1,41 @@
+baseURL = 'http://i-am-j.ag/blog/'
+languageCode = 'en-us'
+title = 'Joshua Ginsberg, aka jag, j00bar'
+theme = ["github.com/nodejh/hugo-theme-mini"]
+defaultContentLanguage = "en"
+showToc = true
+canonifyURLs = true
+googleAnalytics = "G-KSQ053BFR8"
+
+[params]
+  author = 'Joshua "jag" Ginsberg'
+  enableRSS = true
+  customCSS = [
+    "https://fonts.googleapis.com/css2?family=Alegreya&family=Fira+Sans:wght@400;600&display=swap",
+    "https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+  ]
+  customJS = [
+    "https://use.fontawesome.com/releases/v5.15.4/js/all.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"
+  ]
+  enableGoogleAnalytics = true
+
+[outputFormats.RSS]
+mediaType = "application/rss+xml"
+baseName = "index"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[social]
+  github = "https://github.com/j00bar"
+  mastodon = "https://fosstodon.org/@j00bar"
+  flickr = "https://flickr.com/j00bar"
+  linkedin = "https://www.linkedin.com/in/joshuaginsberg/"

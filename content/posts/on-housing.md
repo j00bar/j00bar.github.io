@@ -50,13 +50,13 @@ A leveraged investment is one where one borrows capital at a lower interest rate
 
 So it might seem at first blush that the government securing mortgages and promoting ever higher levels of homeownership is unquestionably a good thing - we want everybody to have financial security and the opportunity to generate wealth for themselves and their families. But there's a problem: if we want homeowners to grow wealth through homeownership, the value of your house has to continue to go up; but the value of housing goes up when demand outstrips supply, when there isn't enough housing in an area for everybody who wants to live there, so making housing affordable and accessible to everybody means that prices have to come down and stay down, which won't generate wealth for homeowners.
 
-<p style="text-align: center"><b><i>Housing can either be an ever-appreciating asset and vehicle for wealth generation, or it can be affordable and accessible to everybody, but not both.</i></b></p>
+<p style="text-align: center"><b><i>Housing can either be an ever-appreciating asset and vehicle for wealth generation for some, or it can be affordable and accessible to all, but not both.</i></b></p>
 
 I hear this dissonance all the time in my friends: those who aren't presently homeowners lament the high prices of housing that precludes them from buying a home and accruing wealth; those who are presently homeowners believe in the creation of affordable housing but nowhere near them so as not to negatively impact their property valuation. They're simply incompatible goals.
 
 ## Inherently inequitable
 
-Given the American governmental and cultural treatment of housing as an wealth-generating vehicle for some but never for all, it immediately becomes a political calculation who housing policy will benefit and who it will harm. The inequity of how that line has been drawn is both unjust and unwise. The injustice comes from the historical racial and cultural prejudice that has been interwoven with 20th century America's housing policies, and just as generational wealth compounds with interest, so does generational inequity. The injudiciousness comes from a wealth transfer from younger, poorer Americans to older, richer Americans, as the appreciating property values are only realized during a sale.
+Given the American governmental and cultural treatment of housing to work for some but not for all, it immediately becomes a political calculation who housing policy will benefit and who it will harm. The inequity of how that line has been drawn is both unjust and unwise. The injustice comes from the historical racial and cultural prejudice that has been interwoven with 20th century America's housing policies, and just as generational wealth compounds with interest, so does generational inequity. The injudiciousness comes from a wealth transfer from younger, poorer Americans to older, richer Americans, as the appreciating property values are only realized during a sale.
 
 ### An abridged history of race and property in 20th century America
 

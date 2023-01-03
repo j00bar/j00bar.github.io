@@ -4,6 +4,6 @@ repos:
     - id: rebuild-hugo
       name: Rebuild Hugo
       language: script
-      entry: /usr/local/bin/hugo -d docs/blog
+      entry: /bin/sh -c "HUGO_ENV=production /usr/local/bin/hugo -d docs/blog"
       files: ""
       pass_filenames: false

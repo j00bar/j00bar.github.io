@@ -1,6 +1,6 @@
 ---
 title: On Housing
-date: "2023-01-03"
+date: "2023-01-05"
 description: "Thoughts on housing, affordability, wealth generation, and city planning"
 tags: ["Housing", "Asheville"]
 ---

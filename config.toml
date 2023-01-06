@@ -1,6 +1,6 @@
 baseURL = 'https://i-am-j.ag/blog/'
 languageCode = 'en-us'
-title = 'Joshua Ginsberg, aka jag, j00bar'
+title = 'Joshua Ginsberg, aka jag'
 theme = ["github.com/nodejh/hugo-theme-mini"]
 defaultContentLanguage = "en"
 showToc = true

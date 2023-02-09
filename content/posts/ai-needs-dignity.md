@@ -13,9 +13,9 @@ Several years ago, I was visiting my brother and his family in their San Francis
 
 "What do you say?" chimed my sister-in-law.
 
-"Thank you, Alexa."
+"Thank you."
 
-And in response, the Echo said... nothing. Its little blue ring came on at the hearing of its name once more, waited for instruction, and (hearing nothing more) returned to playing the requested track.
+And in response, the Echo said... nothing.
 
 <hr>
 

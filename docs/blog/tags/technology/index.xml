@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://i-am-j.ag/blog/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Calendar-like views in Django admin</title>
+      <link>https://i-am-j.ag/blog/posts/django-calendar-in-admin/</link>
+      <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://i-am-j.ag/blog/posts/django-calendar-in-admin/</guid>
+      <description>In my coding work for SeekHealing, we make extensive use of the Django Admin for our program management database. For a one-person coding team, Django has been invaluable for maintaining a functional, accessible system that evolves with the program&amp;rsquo;s needs despite the limited number of hours I have to devote to the work.
+We manage our calendar of program events in Django, with a model appropriately called CalendarEvent, which has a start-time and an end-time - and we&amp;rsquo;ve got data in this database going back to 2018.</description>
+    </item>
+    
+    <item>
       <title>Twitter ditches SMS as 2FA for non-paying users</title>
       <link>https://i-am-j.ag/blog/posts/birdsite-sms-2fa/</link>
       <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>

@@ -5,7 +5,7 @@ description: "Commentary about Twitter's decision to only allow SMS as 2FA for T
 tags: ["Technology"]
 ---
 
-This month, Twitter disabled SMS-based two-factor authentication (2FA) for users who have not paid Musk's $8 fee for Twitter Blue.
+Effective next month, Twitter will disable SMS-based two-factor authentication (2FA) for users who have not paid Musk's $8 fee for Twitter Blue.
 
 <figure>
   <a href="musk-announcement.png" data-lightbox="musk-announcement"><img src="musk-announcement.png" class="blog-img img-full"></a>

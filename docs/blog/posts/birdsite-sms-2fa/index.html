@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Twitter ditches SMS as 2FA for non-paying users | Joshua Ginsberg, aka jag</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="Commentary about Twitter&#39;s decision to only allow SMS as 2FA for Twitter Blue customers">
+<meta name="generator" content="Hugo 0.110.0">
+
+
+  <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+
+
+<link rel="stylesheet" href="https://i-am-j.ag/blog/css/style.css">
+
+
+  
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya&amp;family=Fira&#43;Sans:wght@400;600&amp;display=swap">
+  
+
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+  
+
+
+<link rel="shortcut icon" href="https://i-am-j.ag/blog/images/favicon.ico" type="image/x-icon" />
+
+ 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KSQ053BFR8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KSQ053BFR8');
+</script>
+
+
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
+	<a href="https://i-am-j.ag/">Home</a>
+	<a href="https://i-am-j.ag/blog/posts">Archive</a>
+	<a href="https://i-am-j.ag/blog/tags">Tags</a>
+
+	
+
+	
+	  <a class="button" href="https://i-am-j.ag/blog/index.xml">Subscribe</a>
+	
+</nav>
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">Twitter ditches SMS as 2FA for non-paying users</h1>
+
+    <div class="tip">
+        <time datetime="2023-02-19 00:00:00 &#43;0000 UTC">Feb 19, 2023</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          562 words
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          3 minute read
+        </span>
+    </div>
+
+    
+    
+
+
+    <div class="content">
+      <p>This month, Twitter disabled SMS-based two-factor authentication (2FA) for users who have not paid Musk&rsquo;s $8 fee for Twitter Blue.</p>
+<figure>
+  <a href="musk-announcement.png" data-lightbox="musk-announcement"><img src="musk-announcement.png" class="blog-img img-full"></a>
+  <figcaption>Source: <a href="https://twitter.com/elonmusk/status/1627059645293670401">Twitter</a></figcaption>
+</figure>
+<p>Musk claims that Twitter is spending $60M on fraudulent SMS challenges from a longstanding practice known as <a href="https://twitter.com/EricAschner/status/1626999229401948163" target="_blank" rel="noopener">Toll Fraud</a>, where bad-acting telcos who charge high rates for delivering SMS messages surreptitiously use bots to force generation such SMS verification messages to inflate their bills. While Toll Fraud is undoubtedly a real thing that I have no doubt Twitter wastes a lot of money on, I won&rsquo;t take the $60M figure at face value because the fact remains that <a href="https://twitter.com/pookleblinky/status/1627173306372587520" target="_blank" rel="noopener">most 2FA challenges are probably malicious</a> because that&rsquo;s 2FA working as designed. I&rsquo;m more likely to believe Musk is lumping all SMS challenges sent that don&rsquo;t result in a successful login as problematic fraud.</p>
+<p>Compared to other 2FA mechanisms like TOTP, SMS is comparatively insecure; it&rsquo;s far easier to intercept an SMS message than it is to get access to Google Authenticator. Many on Twitter are responding that <a href="https://twitter.com/mjackson/status/1626999765904031744" target="_blank" rel="noopener">this decision is good for security</a> because you shouldn&rsquo;t be using SMS for 2FA anyway.</p>
+<p>This argument isn&rsquo;t convincing for me.</p>
+<p>First, for most of us on Twitter, SMS is sufficiently secure as a second factor. For a system to be sufficiently secure, the cost of bypassing the security controls must exceed the value that can be extracted by doing so. If I store $50 in a safe that it would cost $5000 to break into, I can rest assured that money is generally safe. That&rsquo;s why password-only authentication on Twitter is insufficient, even for the majority of us: it&rsquo;s low cost to use hacked databases of passwords to mass compromise Twitter accounts and use them to pump crypto scams, to run a Zelle scam, or fo any other number of profitable scams. However the cost of compromising most users&rsquo; SMS vastly exceeds that value. Unless you&rsquo;re a (legacy) blue checkmark or have real influence in the world, SMS provides sufficient security.</p>
+<p>What&rsquo;s likely to happen is that by raising the complexity of supporting 2FA - including requiring the installation of Google Authenticator or even learning about other 2FA technologies like TOTP or Yubikey - many users will simply disable 2FA altogether.</p>
+<p>Second, Twitter&rsquo;s operating on a theory is that the $8/mo cost is enough to make the cost to unscrupulous telcos running Toll Fraud programs sufficiently high as to make generating them unprofitable. That theory is certainly mistaken. A realistic example: some such bad acting telcos charge of $0.05 per SMS message, and might pay a scammer 20% of that in order to automate the mass generation of such messages. Stolen credit card numbers are cheap enough to acquire on the dark web. The scammer would only have to generate 800 SMS challenges per account in a month to break a profit, which works out to about one challenge per hour. Automated systems can generate them as often as Twitter will let them, which is several times higher than that.</p>
+<p>Finally, if security is the aim, allowing people to pay money to avoid appropriate security controls is hardly consistent with that aim. It&rsquo;s disingenuous to suggest that Twitter&rsquo;s intention here is greater security for its user base.</p>
+<p>Ultimately, to me this lands as yet another half-baked edict from Twitter&rsquo;s Peter Pan Syndrome stricken owner without showing the faintest interest in understanding the impact.</p>
+
+    </div>
+
+    
+        <div class="tags">
+            
+                <a href="https://i-am-j.ag/blog/tags/technology">Technology</a>
+            
+        </div>
+    
+    
+    
+
+</section>
+
+
+    </main>
+    
+    <footer id="footer">
+    
+        <div id="social">
+
+    
+        <a href="https://flickr.com/j00bar" rel="me" target="_blank">
+            <i class="fab fa-flickr"></i>
+        </a>
+    
+        <a href="https://github.com/j00bar" rel="me" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+    
+        <a href="https://www.linkedin.com/in/joshuaginsberg/" rel="me" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    
+        <a href="https://fosstodon.org/@j00bar" rel="me" target="_blank">
+            <i class="fab fa-mastodon"></i>
+        </a>
+    
+    <a href="mailto:jag@flowtheory.net"><i class="far fa-envelope"></i></a>
+    
+</div>
+    
+
+    <div class="copyright">
+    
+       © Copyright 
+       2023 
+       <span class="split">
+        <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
+  <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
+</svg>
+       </span>
+       Joshua &#34;jag&#34; Ginsberg
+    
+    </div>
+
+    
+</footer>
+
+
+    
+        
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+    
+
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+    
+
+
+  </body>
+</html>

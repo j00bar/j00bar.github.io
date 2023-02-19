@@ -6,7 +6,17 @@
     <description>Recent content in Technology on Joshua Ginsberg, aka jag</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://i-am-j.ag/blog/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://i-am-j.ag/blog/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Twitter ditches SMS as 2FA for non-paying users</title>
+      <link>https://i-am-j.ag/blog/posts/birdsite-sms-2fa/</link>
+      <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://i-am-j.ag/blog/posts/birdsite-sms-2fa/</guid>
+      <description>This month, Twitter disabled SMS-based two-factor authentication (2FA) for users who have not paid Musk&amp;rsquo;s $8 fee for Twitter Blue.
+Source: Twitter Musk claims that Twitter is spending $60M on fraudulent SMS challenges from a longstanding practice known as Toll Fraud, where bad-acting telcos who charge high rates for delivering SMS messages surreptitiously use bots to force generation such SMS verification messages to inflate their bills. While Toll Fraud is undoubtedly a real thing that I have no doubt Twitter wastes a lot of money on, I won&amp;rsquo;t take the $60M figure at face value because the fact remains that most 2FA challenges are probably malicious because that&amp;rsquo;s 2FA working as designed.</description>
+    </item>
+    
     <item>
       <title>AI needs to be designed with dignity</title>
       <link>https://i-am-j.ag/blog/posts/ai-needs-dignity/</link>
